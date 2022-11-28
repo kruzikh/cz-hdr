@@ -15,8 +15,9 @@ copyrightYear: 2022+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+jurisdiction: urn:iso:std:iso:3166#CZ "Czech Republic" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: N�rodn� centrum elektronick�ho zdravotnictv�
+  name: Národní centrum elektronického zdravotnictví
   url: https://ncez.mzcr.cz
   # email: test@example.org
 
@@ -31,6 +32,10 @@ publisher:
 #     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
 #     version: 1.0.0
 #
+dependencies:
+  hl7.fhir.uv.ips: current
+#  hl7.fhir.us.mcode: current
+  ncez.fhir.cz.core: current
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
