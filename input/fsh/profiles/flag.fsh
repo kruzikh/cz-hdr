@@ -7,7 +7,7 @@ Description: "This profile constrains the Flag resource to represent alerts or w
 //-------------------------------------------------------------------------------------------
 
 * extension contains $flag-detail named flagDetailExt 0..*
-* extension contains $flag-priority named flagPriorityExt 0..*
+* extension contains $flag-priority named flagPriorityExt 0..1  // ToDo check cardinality - tady to hází chybu
 * extension[flagDetailExt]
 * extension[flagPriorityExt]
 * status MS

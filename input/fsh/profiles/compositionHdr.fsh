@@ -1,7 +1,7 @@
 Profile: CZ_CompositionHdr
 Parent: $clinicaldocument
 Id: cz-composition-hdr
-Title: "Composition (HDR)"
+Title: "Hospital Discharge Report Composition"
 Description: """Clinical document used to represent the Czech national hospital discharge report (HDR) data set.
 A hospital discharge report is an electronic health record document containing summary information about course and results of an inpatient care encounter of a subject of care.
 The quality of the discharge report is generally considered critical to promoting patient safety during the transition between different providers, particularly in the early post-hospitalization period. In addition, it also contains important information intended for the patient himself (or the person caring for the patient): information about his state of health and subsequent recommended care (e.g. date of follow-up examination, regimen recommendations, etc.).

@@ -5,7 +5,10 @@ Alias: $loinc = http://loinc.org
 Alias: $v3-ActClass = http://terminology.hl7.org/CodeSystem/v3-ActClass
 Alias: $m49.htm = http://unstats.un.org/unsd/methods/m49/m49.htm
 Alias: $atc = http://www.whocc.no/atc
-Alias: $mkn-10 = https://terminology.ncez.mzcr.cz/ValueSet/mkn-10
+Alias: $mkn-10 = https://terminology.ncez.mzcr.cz/CodeSystem/mkn-10
+Alias: $standardterms = http://standardterms.edqm.eu
+Alias: $locto = https://terminology.ncez.mzcr.cz/CodeSystem/locto
+Alias: $dlp = https://terminology.ncez.mzcr.cz/CodeSystem/dlp
 
 // Vaue sets
 Alias: $allergy-reaction-gps-uv-ips = http://hl7.org/fhir/uv/ips/ValueSet/allergy-reaction-gps-uv-ips
@@ -16,6 +19,8 @@ Alias: $absent-or-unknown-medications-uv-ips = http://hl7.org/fhir/uv/ips/ValueS
 Alias: $eHDSI-ATC-VS = http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips
 Alias: $target-site-uv-ips = http://hl7.org/fhir/uv/ips/ValueSet/target-site-uv-ips
 Alias: $medicine-route-of-administration = http://hl7.org/fhir/uv/ips/ValueSet/medicine-route-of-administration
+Alias: $medicine-doseform = https://ncez.mzcr.cz/fhir/ValueSet/cz-medicine-doseform-vs
+Alias: $medicine-active-substances = https://ncez.mzcr.cz/fhir/ValueSet/cz-medicine-active-substances-vs
 
 // Profiles:
 Alias: $clinicaldocument = http://hl7.org/fhir/StructureDefinition/clinicaldocument

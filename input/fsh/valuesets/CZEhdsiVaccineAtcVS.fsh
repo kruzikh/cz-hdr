@@ -1,6 +1,6 @@
 ValueSet: CZ_eHDSIVaccineAtcVS
 Id: cz-ehdsi-vaccine-atc-vs
-Title: "EU Vaccine"
+Title: "EU Vaccine (ATC) Value set"
 Description: "Czech vaccine type value set. This value set includes all ATC codes from EU eHDSIVaccine value set."
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^version = "1.0.0"

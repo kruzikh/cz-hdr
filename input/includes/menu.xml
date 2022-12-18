@@ -1,0 +1,50 @@
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+	<li>
+		<a href="index.html">Home</a>
+	</li>
+  <li><a href="toc.html">Obsah</a></li>
+	<li class="dropdown">
+		<a href="#" data-toggle="dropdown" class="dropdown-toggle">Základní principy a konvence</a>
+		<ul class="dropdown-menu">
+			<li>
+				<a href="principy.html">Základní principy návrhu</a>
+			</li>
+			<li>
+				<a href="design.html">Konvence návrhu</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="hdrStructure.html">Propouštěcí zpráva</a>
+	</li>
+	<li class="dropdown">
+		<a href="#" data-toggle="dropdown" class="dropdown-toggle">FHIR Artifacts</a>
+		<ul class="dropdown-menu">
+			<li>
+				<a href="StructureDefinition-cz-composition-hdr.html">HDR Composition</a>
+			</li>
+			<li>
+				<a href="profiles.html">HDR library</a>
+			</li>
+			<!-- <li>
+				<a href="datatypes.html">Datatypes</a>
+			</li> -->
+			<li>
+				<a href="extensions.html">Extensions</a>
+			</li>
+			<li>
+				<a href="terminology.html">Terminology</a>
+			</li>
+            <li>
+		      <a href="examples.html">Examples</a>
+	       </li>
+		</ul>
+	</li>
+
+	<li>
+		<a href="downloads.html">Downloads</a>
+	</li>
+    <li>
+         <a href="copyrights.html">Copyrights</a>
+    </li>
+</ul>

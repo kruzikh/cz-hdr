@@ -4,7 +4,6 @@ Id: cz-medication-statement
 Title: "Medication Statement (CZ)"
 Description: "This profile represents the constraints applied to the MedicationStatement resource by the Czech national interoperability project. "
 * ^status = #active
-* ^date = "2022-11-24T13:04:28-01:00"
 * ^publisher = "Národní centrum elektronického zdravotnictví"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://ncez.mzcr.cz"
@@ -12,14 +11,13 @@ Description: "This profile represents the constraints applied to the MedicationS
 * status ^comment = "In the scope of the HDR the entered-in-error concept is not allowed."
 
 * medication[x] MS
-/*
-* medication[x] from $medication-example-uv-ips (example)
+* medication[x] from cz-medicine-dlp-vs (preferred)
 * medication[x] ^slicing.discriminator.type = #type
 * medication[x] ^slicing.discriminator.path = "$this"
 * medication[x] ^slicing.rules = #closed
 * medication[x] ^definition = "Identifies the medication being administered or the reason for absent or unknown Medication. This is either a link to a resource representing the details of the medication or a simple attribute carrying a code. To improve global interoperability is strongly encouraged that the reference to a medication resource is used, limiting the usage of the medicationCodeableConcept only to the cases in which no other information than a simple code is available."
 * medication[x] ^binding.description = "The type of medication"
-*/
+
 * medicationReference 0..1 MS
 * medicationReference only Reference(Medication)  //ToDo CZ_Medication
 * medicationReference ^sliceName = "medicationReference"
@@ -42,6 +40,6 @@ Description: "This profile represents the constraints applied to the MedicationS
 * dosage MS
 * dosage.text MS
 * dosage.timing MS
-* dosage.route only CodeableConceptIPS
+//* dosage.route only CodeableConceptIPS
 * dosage.route from $medicine-route-of-administration (preferred)
 * dosage.route ^binding.description = "EDQM Standards Terms"

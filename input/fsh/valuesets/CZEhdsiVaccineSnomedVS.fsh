@@ -1,6 +1,6 @@
 ValueSet: CZ_eHDSIVaccineSnomedVS
 Id: cz-ehdsi-vaccine-snomed-vs
-Title: "EU Vaccine"
+Title: "EU Vaccine Snomed CT Value set"
 Description: "Czech vaccine type value set. This value set includes all SNOMED CT codes from EU eHDSIVaccine value set."
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^version = "1.0.0"
