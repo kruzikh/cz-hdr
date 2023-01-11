@@ -79,7 +79,7 @@ It documents the relevant allergies or intolerances (conditions) for a patient, 
 * code.coding[eHDSIAtc] ^binding.extension.valueString = "AllergyIntolerance ATC"
 * code.coding[eHDSIAtc] ^binding.description = "Codes for allergy or intolerance from the eHDSI ATC value set."
 
-* code.coding[DLP_leciva] from CZ_DLP_lecivaVS (required)
+* code.coding[DLP_leciva] from CZ_MedicineDlpVS (required)
 * code.coding[DLP_leciva] ^short = "Code for allergy or intolerance from DLP code set"
 * code.coding[DLP_leciva] ^definition = "Code for an allergy or intolerance statement selected from the Czech drug value set."
 * code.coding[DLP_leciva] ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
