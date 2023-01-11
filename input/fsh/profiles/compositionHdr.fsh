@@ -105,9 +105,9 @@ The start value should represent the date when the treatment relationship betwee
 //* section[sectionMedicationSummary].code = $loinc#10160-0
 * section[sectionMedicationSummary].code = $loinc#56445-0
 * section[sectionMedicationSummary].entry 1.. MS
-* section[sectionMedicationSummary].entry only Reference(CZ_MedicationStatementHDR)  // TODO: změnit na CZ_MediactionStatement
+* section[sectionMedicationSummary].entry only Reference(CZ_MedicationStatement or CZ_MedicationRequest or CZ_MedicationDispense)
 * section[sectionMedicationSummary].entry ^short = "Medications relevant for the scope of the HDR"
-* section[sectionMedicationSummary].entry ^definition = "Seznam léčiv s vyznačením, zda se jedná o medikaci změněnou či nově zahájenou. Pokud pacient nemá žádnou medikaci či medikace není známa, musí být tento fakt rovněž zaznamenán."
+* section[sectionMedicationSummary].entry ^definition = "Seznam léčiv s vyznačením, zda se jedná o medikaci změněnou (včetně ukončené), pokračující (beze změny), nově zahájenou či doporučenou. Také informace o vybavení pacienta (vydaných léčivech) při propuštění. Pokud pacient nemá žádnou medikaci či medikace není známa, musí být tento fakt rovněž zaznamenán."
 * section[sectionMedicationSummary].emptyReason ..0
 * section[sectionMedicationSummary].emptyReason ^mustSupport = false
 

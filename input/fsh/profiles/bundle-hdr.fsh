@@ -2,7 +2,7 @@ Profile: CZ_Bundle_HDR
 Parent: Bundle
 Id: cz-bundle-hdr
 Title: "Bundle - Hospital discharge Report"
-Description: "This profile represents the constraints applied to the Bundle resource by the Czech national hospital dischargew report (HDR) FHIR Implementation Guide."
+Description: "This profile represents the constraints applied to the Bundle resource by the Czech national hospital discharge report (HDR) FHIR Implementation Guide."
 * ^purpose = "Hospital discharge report (HDR) bundle is an electronic health record extract containing essential healthcare information about a subject of care, comprising at least the required elements of the HDR dataset. The HDR dataset is minimal and non-exhaustive; specialty-agnostic and condition-independent; but still clinically relevant. It is designed for supporting the use case scenario for 'continuity of care care’, but it is not limited to it."
 //* obeys bdl-ips-1
 * . ^short = "Hospital Discharge Report Bundle"
@@ -38,6 +38,7 @@ Description: "This profile represents the constraints applied to the Bundle reso
     medication 0..* and
     medicationrequest 0..* and
     medicationstatement 0..* and
+    medicationdispense 0..* and
     practitioner 0..* and
     practitionerrole 0..* and
     procedure 0..* and
@@ -54,11 +55,11 @@ Description: "This profile represents the constraints applied to the Bundle reso
 * entry[patient].resource 1..
 * entry[patient].resource only CZ_Patient
 * entry[allergyintolerance].resource 1..
-* entry[allergyintolerance].resource only AllergyIntoleranceUvIps  // CZ
+* entry[allergyintolerance].resource only CZ_AllergyIntolerance
 * entry[condition].resource 1..
 * entry[condition].resource only ConditionUvIps // CZ
 * entry[device].resource 1..
-* entry[device].resource only Device
+* entry[device].resource only Device  // CZ
 * entry[deviceusestatement].resource 1..
 * entry[deviceusestatement].resource only DeviceUseStatementUvIps  // CZ
 * entry[diagnosticreport].resource 1..
@@ -70,11 +71,13 @@ Description: "This profile represents the constraints applied to the Bundle reso
 * entry[media].resource 1..
 * entry[media].resource only MediaObservationUvIps  // CZ
 * entry[medication].resource 1..
-* entry[medication].resource only MedicationIPS  // CZ
+* entry[medication].resource only CZ_Medication
 * entry[medicationrequest].resource 1..
-* entry[medicationrequest].resource only MedicationRequestIPS // CZ
+* entry[medicationrequest].resource only CZ_MedicationRequest
 * entry[medicationstatement].resource 1..
-* entry[medicationstatement].resource only MedicationStatementIPS // CZ
+* entry[medicationstatement].resource only CZ_MedicationStatement
+* entry[medicationdispense].resource 1..
+* entry[medicationdispense].resource only CZ_MedicationDispense
 * entry[practitioner].resource 1..
 * entry[practitioner].resource only CZ_Practitioner
 * entry[practitionerrole].resource 1..

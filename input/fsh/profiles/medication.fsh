@@ -31,11 +31,11 @@ Description: "This profile represents the constraints applied to the Medication 
     dlp 0..1 MS
 
 //* code[atcClass] only CodeableConceptIPS
-* code.coding[atcClass] from $atc (required)
+* code.coding[atcClass] from CZ_MedicineActiveSubstancesVS (required)
 * code.coding[atcClass] ^short = "WHO ATC"
 * code.coding[atcClass] ^definition = "Klasifikace WHO ATC"
 //* code[dlp] only CodeableConceptIPS
-* code.coding[dlp] from $dlp (required)
+* code.coding[dlp] from CZ_MedicineDlpVS (required)
 * code.coding[dlp] ^short = "Kód SÚKL"
 * code.coding[dlp] ^definition = "Kód SÚKL z databáze léčivých přípravků (DLP)"
 

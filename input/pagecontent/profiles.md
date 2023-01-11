@@ -2,7 +2,7 @@
 
 <b>Propouštěcí zpráva</b> je klinický dokument.
 
-Všechny profily uvedené v této příručce jsou používány <b>Hospital Discharge Report Composition</b>.
+Všechny profily uvedené v této příručce jsou používány v <b>Hospital Discharge Report Composition</b>.
 
 <b>Bundle</b> použitý pro transport nebo perzistenci MUSÍ zahrnovat všechny zdroje, na které přímo nebo nepřímo odkazuje Hospital Discharge Report Composition.
 

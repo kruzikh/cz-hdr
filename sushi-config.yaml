@@ -3,11 +3,11 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: ncez.fhir.cz.hdr
-canonical: https://www.ncez.cz/standards/fhir/hdr
-name: HDR
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+id: ncez.cz.fhir.hdr
+canonical: https://ncez.mzcr.cz/standards/fhir/ig/hdr
+name: CzHdrImplementationGuide
+title: Czech Hospital Discharge Report IG
+description: Czech National Hospital Discharge Report Implementation Guide
 status: draft # draft | active | retired | unknown
 version: 1.0.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -35,7 +35,7 @@ publisher:
 dependencies:
   hl7.fhir.uv.ips: current
 #  hl7.fhir.us.mcode: current
-  ncez.fhir.cz.core: current
+  ncez.cz.fhir.core: current
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in

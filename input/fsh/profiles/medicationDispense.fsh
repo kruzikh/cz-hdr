@@ -1,13 +1,13 @@
-Profile: CZ_MedicationStatement
-Parent: MedicationStatement
-Id: cz-medication-statement
-Title: "Medication Statement (CZ)"
-Description: "This profile represents the constraints applied to the MedicationStatement resource by the Czech national interoperability project. "
+Profile: CZ_MedicationDispense
+Parent: MedicationDispense
+Id: cz-medication-dispense
+Title: "Medication dispense (CZ)"
+Description: "This profile represents the constraints applied to the MedicationDispense resource by the Czech national interoperability project."
 * ^status = #active
 * ^publisher = "Národní centrum elektronického zdravotnictví"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://ncez.mzcr.cz"
-* ^purpose = "This profile constrains the representation of a medication statement related to the patient, in the context of the Czech hospital discharge record as specified by the national interoperability project."
+* ^purpose = "This profile constrains the representation of a medication dispense related to the patient as specified by the national interoperability project."
 * status ^comment = "In the scope of the Patint summary or hospital discharge record the entered-in-error concept is not allowed."
 
 * medication[x] MS
@@ -23,7 +23,6 @@ Description: "This profile represents the constraints applied to the MedicationS
 * medicationReference ^sliceName = "medicationReference"
 
 * medicationCodeableConcept 0..1 MS
-//* medicationCodeableConcept only CodeableConceptIPS
 * medicationCodeableConcept from $absent-or-unknown-medications-uv-ips (extensible)
 * medicationCodeableConcept ^sliceName = "medicationCodeableConcept"
 * medicationCodeableConcept ^short = "Code for the medication being administered or an absent or unknown medication"
@@ -36,10 +35,6 @@ Description: "This profile represents the constraints applied to the MedicationS
 * subject MS
 * subject.reference 1.. MS
 
-* effective[x] 1..1 MS
-* effective[x].extension contains $data-absent-reason named data-absent-reason 0..1 MS
-* effective[x].extension[data-absent-reason] ^short = "effective[x] absence reason"
-* effective[x].extension[data-absent-reason] ^definition = "Provides a reason why the effectiveTime is missing."
+* dosageInstruction MS
+* dosageInstruction only CZ_Dosage
 
-* dosage MS
-* dosage only CZ_Dosage

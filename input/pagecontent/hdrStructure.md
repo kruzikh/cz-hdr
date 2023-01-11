@@ -1,9 +1,9 @@
 ### Struktura propouštěcí zprávy
 
 
-The IPS is composed by the following sections described below.
+Propouštěcí zpráva obsahuje níže uvedené základní informační bloky:
 
-{% include img.html img="PZ-composition.png" caption="Figure 1: The HDR composition" width="70%" %}
+{% include img.html img="PZ-composition.png" caption="Figure 1: Obsah propouštěcí zprávy" width="70%" %}
 
 ### Popis sekcí propouštěcí zprávy
 

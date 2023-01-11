@@ -1,6 +1,6 @@
 ValueSet: CZ_AllergyIntoleranceSubstanceConditionsVS
 Id: cz-allergy-intolerance-substance-condition-vs
-Title: "Czech national Allergy Intolerance value set "
+Title: "Czech national Allergy Intolerance value set"
 Description: "This value set currently includes the codes for allergy or intolerance findings from eHDSI value set maintained by MyHealth@EU project. This value set includes codes from the SNOMED International Patient Set (IPS) subset of SNOMED CT (IPS Free Set) that are included in: descendants of 373873005 \\|Pharmaceutical / biologic product (product)\\|; descendants of 105590001 \\|Substance (substance)\\|; descendants of 418038007 \\|Propensity to adverse reactions to substance (finding)\\|."
 * ^date = "2022-11-19T14:31:00+01:00"
 * ^publisher = "NCEZ"

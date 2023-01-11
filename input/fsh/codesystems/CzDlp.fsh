@@ -9,7 +9,7 @@ Description: "Databáze léčivých přípravků."
 * ^date = "2022-12-02"
 * ^experimental = false
 * ^publisher = "NCEZ"
-* ^description = "Databáze léčiv je odvozena "
+* ^description = "Databáze léčiv je odvozena z databáze registrovaných léčivých přípravků spravovaných SÚKL."
 * ^caseSensitive = true
 * ^content = #complete
 

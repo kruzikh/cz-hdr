@@ -12,7 +12,7 @@ Description: "This value set includes the codes from SNOMED CT describing Vaccin
 * ^contact.telecom[+].system = #email
 * ^contact.telecom[=].value = "info@ncez.mzcr.cz"
 * ^immutable = false
-//* ^copyright = "This value set incorporate SNOMED CT®, used by permission of the International Health Terminology Standards Development Organisation, trading as SNOMED International. SNOMED CT was originally created by the College of American Pathologists. SNOMED CT is a registered trademark of the International Health Terminology Standards Development Organisation, all rights reserved. Implementers of SNOMED CT should review [usage terms](http://www.snomed.org/snomed-ct/get-snomed-ct) or directly contact SNOMED International: info@snomed.org"
+* ^copyright = "This value set incorporate SNOMED CT®, used by permission of the International Health Terminology Standards Development Organisation, trading as SNOMED International. SNOMED CT was originally created by the College of American Pathologists. SNOMED CT is a registered trademark of the International Health Terminology Standards Development Organisation, all rights reserved. Implementers of SNOMED CT should review [usage terms](http://www.snomed.org/snomed-ct/get-snomed-ct) or directly contact SNOMED International: info@snomed.org"
 * SNOMED_CT#4834000 "Typhoid fever (disorder)"
 * SNOMED_CT#6142004 "Influenza (disorder)"
 * SNOMED_CT#6541001 "Yellow fever (disorder)"
