@@ -3,6 +3,7 @@ Tato specifikace, byla vytvořena v rámci národního projektu interoperability
 Tento dokument je licencován podle Creative Commons „No Rights Reserved“ (CC0).
 
 Tato specifikace obsahuje a odkazuje na duševní vlastnictví ve vlastnictví třetích stran („IP třetí strany“).
+
 Implementátoři a testeři této specifikace MUSÍ dodržovat licenční požadavky pro každý artefakt terminologického obsahu používaný v rámci vlastní implementace.
 
 Licence na terminologie MUSÍ být získány od vlastníků IP třetí strany pro každý kódový systém a/nebo jiný použitý artefakt.

@@ -1,10 +1,10 @@
 // -------------------------------------------------------------------------------
 //  Logical Model				hdr-report.fsh
 // -------------------------------------------------------------------------------
-Logical: HdrReport
-Id: hdr-report
-Title: "Propouštěcí zpráva - administrativní údaje"
-Description:  """Propouštěcí zpráva"""
+Logical: HdrReportLM
+Id: hdr-report-lm
+Title: "LM Propouštěcí zpráva - administrativní údaje"
+Description:  """Logický informační model: Propouštěcí zpráva - administrativní údaje"""
 * header 1..1 BackboneElement "A.1 Hlavička dokumentu" """A.1 Záhlaví dokumentu s administrativními údaji"""
 * header.identifikacePacienta 1..1 https://ncez.mzcr.cz/standards/fhir/ig/hdr/StructureDefinition/subjekt "A.1.1 - A1.2 Patient/subject" """A.1.1 Identification of the patient/subject and A.1.2 Patient/subject related contact information  """
 // https://ncez.mzcr.cz/fhir/ig/hdr/StructureDefinition/cz-subjekt-hdr "A.1.1 - A1.2 Patient/subject" """A.1.1 Identification of the patient/subject and A.1.2 Patient/subject related contact information  """
@@ -36,10 +36,10 @@ A.3 Order reason (Laboratory Result Report could respond to multiple reasons)
 // -------------------------------------------------------------------------------
 //  Map to FHIR R4
 // -------------------------------------------------------------------------------
-Mapping: HdrReport2Fhir
+Mapping: HdrReport2FhirMap
 Id: fhir
 Title: "eHN Lab model to FHIR R4 Map"
-Source: hdr-report
+Source: hdr-report-lm
 Target: "hl7.org/fhir/r4"
 
 * -> "Bundle.conformsTo('https://ncez.mzcr.cz/fhir/ig/hdr/StructureDefinition/Bundle-cz-hdr')"
