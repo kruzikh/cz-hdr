@@ -190,7 +190,12 @@ Seznam implantátů zavedených během hospitalizace, pokud mají význam pro po
 
 *Tato část je volitelná*
 
-Poskytnutá léčba, kterou nelze jednoznačně označit za významný výkon (ve smyslu předchozí definice), ale je významná – typicky chemoterapie, radioterapie, očišťovací metody (dialýza, hemoperfuze), metody podpory oběhu (kontrapulzace apod.), podání krevních derivátů případně další. Vybraná medikamentózní léčba v průběhu hospitalizace. Uvedou se ty léčivé přípravky, jejichž podávání bylo během hospitalizace ukončeno nebo pokračuje po propuštění pouze krátkodobě, přitom znalost jejich podání je významné pro další zdravotní péči (antibiotika kromě zcela rutinních, kortikosteroidy ve vysokých dávkách apod.)
+Poskytnutá léčba, kterou nelze jednoznačně označit za významný výkon (ve smyslu předchozí definice), ale je významná – typicky chemoterapie, radioterapie, očišťovací metody (dialýza, hemoperfuze), metody podpory oběhu (kontrapulzace apod.), podání krevních derivátů případně další.
+
+##### Vybraná medikamentózní léčba v průběhu hospitalizace
+
+Uvedou se ty léčivé přípravky, jejichž podávání bylo během hospitalizace ukončeno nebo pokračuje po propuštění pouze krátkodobě, přitom znalost jejich podání je významné pro další zdravotní péči (antibiotika kromě zcela rutinních, kortikosteroidy ve vysokých dávkách apod.)
+
 Léčivé přípravky, jejichž podávání bylo zahájeno během hospitalizace, ale je doporučeno i po propuštění, budou uvedeny v souhrnné tabulce v bloku Doporučení.
 
 
