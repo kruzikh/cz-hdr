@@ -14,6 +14,19 @@ This profile is based on the ClinicalDocument profile."""
 * ^copyright = "Národní centrum elektronického zdravotnictví"
 * . ^short = "Hospital discharge report composition"
 * . ^definition = "Hospital discharge report composition. \r\nA composition is a set of healthcare-related information that is assembled together into a single logical document that provides a single coherent statement of meaning, establishes its own context and that has clinical attestation with regard to who is making the statement. \r\nWhile a Composition defines the structure, it does not actually contain the content: rather the full content of a document is contained in a Bundle, of which the Composition is the first resource contained."
+
+
+* extension contains $information-recipient named information-recipient 0..*
+* extension[information-recipient]
+  * ^slicing.discriminator[0].type = #type
+  * ^slicing.discriminator[0].path = "valueReference.resolve()"
+  * ^slicing.ordered = false
+  * ^slicing.rules = #open
+  * ^short = "Sliced per type of recipient"
+  * ^definition = "Sliced per type of recipient"
+* extension[information-recipient] contains practictionerRole 0..*
+* extension[information-recipient][practictionerRole].valueReference only Reference ( PractitionerRoleXpandh )
+
 * text MS
 * identifier MS
 * status MS
@@ -55,6 +68,7 @@ The start value should represent the date when the treatment relationship betwee
 * event[careProvisioningEvent].code 1.. MS
 * event[careProvisioningEvent].code = $v3-ActClass#PCPR
 * event[careProvisioningEvent].period MS
+
 * section 1.. MS
 * section ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name"
 * section ^extension.valueString = "Section"
